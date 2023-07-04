@@ -1,0 +1,30 @@
+.image-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: relative;
+    left: 90px;
+}
+
+.column1 {
+    width: 33.33%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.column1 img {
+    width: 100%;
+}
+.column2 {
+    width: 33.33%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.column2 img {
+    width: 100%;
+
+}

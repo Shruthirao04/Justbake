@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+*{
+    font-family: sans-serif;
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    text-align: center;
+}
+li {
+    display:inline-block;
+    margin-right:-20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+.grey
+{
+    background-color: #f7f7f7;
+    border-left: 1px solid #e8e6e2;
+    border-right: 1px solid #e8e6e2;
+    border-bottom: 1px solid #e8e6e2;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    box-sizing: border-box
+}
+.container
+{
+    padding-top:20px;
+    padding-left:120px;
+    padding-right:140px;
+}
+.cake1
+{
+    padding-right: 20px;
+    float: left;
+}
+.hygine
+{
+    padding-left:150px
+}
+.pincode
+{
+    padding: 5px;
+    font-size:16px;
+    text-align:center;
+    color:#5f5d5d;
+    margin-right: 10px;
+}
+.check
+{
+    padding: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:#e91f63;
+    font-size:16px;
+    text-align: center;
+    border:0px;
+    color:white;
+    border-collapse: collapse;
+    border-radius: 2px;
+}
+.weight
+{
+    padding: 6px;
+    padding-bottom: 3px;
+    margin:4px;
+    background-color:#f1f2f6;
+    font-size:13px;
+    text-align: center;
+    border:0px;
+    color:black;
+    border-collapse: collapse;
+    border-radius: 2px;
+}
+.weight:hover {
+    background-color: #e91f63;
+}
+.weight:active
+{
+    border:1px solid #e91f63;
+    background-color:#f1f2f6;
+}
+.weight:visited
+{
+    background-color: #f1f2f6;
+}
+.checkbox
+{
+   padding:"50px";
+   transform: scale(1.3);
+}
+.cart
+{
+    padding: 7px;
+    padding-left: 68px;
+    padding-right:68px;
+    background-color:#e91f63;
+    font-size:16px;
+    text-align: center;
+    border:0px;
+    color:white;
+    border-collapse: collapse;
+    border-radius: 4px;
+}
+.cart:hover
+{
+    background-color: #ffca22;
+    color:black;
+}
+.buy
+{
+    padding: 7px;
+    padding-left: 77px;
+    padding-right:77px;
+    background-color:#ffca22;
+    font-size:16px;
+    text-align: center;
+    border:0px;
+    color:white;
+    border-collapse: collapse;
+    border-radius: 4px;
+}
+.buy:hover
+{
+    background-color: #e91f63;
+    color:white;
+}
+/* .social
+{
+    margin: 24px 0 0;
+    box-shadow: 0 0 6px #eef1e6;
+    padding-bottom: 0.5px;
+    padding-top: 0.5px;
+    margin-bottom: 0.5px;
+    margin-top: 1px;
+    box-sizing: border-box;
+    padding-left: -120x;
+} */
+.social ul
+{
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.des{
+    display: inline-block;
+    padding-right: 250px;
+    color:solid black;
+    font-size: 18px;
+}
+.qua
+{
+    display: inline-block;
+    padding-right: 430px;
+    color:solid black;
+    font-size: 18px;
+}
+.re{
+    display: inline-block;
+    color:solid black;
+    font-size: 18px;
+}

@@ -1,0 +1,101 @@
+body {
+    background-color: #fff;
+    line-height: 24px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Roboto,sans-serif;
+    color: #000;
+}
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    font-family: Roboto,sans-serif;
+}
+a, button {
+    color: inherit;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+.header-area {
+    position: relative;
+}
+.header-top-area.border-none {
+    border: none;
+}
+.header-top-area {
+    border-bottom: 1px solid #d5d4d4;
+}
+.bg-dark {
+    background-color: #343a40!important;
+}
+.header-padding-2 .container-fluid {
+    padding: 0 15px;
+}
+.header-padding-2 .container-fluid {
+    padding: 0 70px;
+}
+.header-top-area .header-top-wap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.header-top-area .header-top-wap {
+    display: flex;
+}
+.header-top-area .header-top-wap {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.language-currency-wrap {
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.language-currency-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.language-currency-wrap .same-language-currency {
+    margin-right: 15px;
+}
+.language-currency-wrap .same-language-currency {
+    position: relative;
+    margin-right: 54px;
+}
+.language-currency-wrap .same-language-currency p {
+    letter-spacing: .8px;
+    color: #fff;
+    line-height: 1;
+    margin-top: 5px;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+.slogan {
+    color: #e91f63;
+    font-weight: 500;
+    font-family: Roboto,sans-serif;
+}
+h3 {
+    font-size: 24px;
+    line-height: 18px;
+    color: #000;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+}

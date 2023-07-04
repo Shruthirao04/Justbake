@@ -1,0 +1,64 @@
+.express_wrapper {
+  display: flex;
+  margin-left: 5%;
+  gap: 1%;
+}
+.express__cards {
+  width: 23%;
+  height: 20%;
+  background-color: white;
+}
+.express__cards__title {
+  text-align: left;
+  margin-left: 10px;
+}
+.express__cards__price {
+  text-align: left;
+  margin-left: 10px;
+}
+.express__cards p:hover {
+  color: #e91f63;
+}
+.express__image img {
+  width: 100%;
+  margin-right: 10px;
+  padding: 10px;
+}
+.express span.tag {
+  position: absolute;
+  top: 202%;
+  left: 22%;
+  color: white;
+  background-color: #e91f63;
+  border-radius: 3px;
+  padding: 0 3px;
+}
+
+.bestcakes_wrapper {
+  display: flex;
+  margin-left: 5%;
+  gap: 1%;
+}
+.bestcakes__cards {
+  width: 23%;
+  height: 20%;
+  background-color: white;
+}
+.bestcakes__cards__image img {
+  width: 100%;
+  padding: 10px;
+}
+.bestcakes__cards__title {
+  text-align: left;
+  padding: 4px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.bestcakes__cards__title p:hover {
+  color: #e91f63;
+}
+.bestcakes__cards__price {
+  text-align: left;
+  padding: 2px;
+  margin-left: 10px;
+}/*# sourceMappingURL=express.css.map */

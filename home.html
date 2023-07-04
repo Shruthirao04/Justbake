@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>online cake delivery</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"  initial-scale="1">
+        <link rel="icon" type="image/x-icon" href="images/logo (1).png">
+        <link rel="stylesheet" href="css/head.css">
+        <link rel="stylesheet" href="css/express.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+        <div class="head">
+            <div class="head__phone">
+                <span class="phone-number">Call us : +918970010111 / +918970010222 |</span>
+            </div>
+            <div class="head__icons">
+                <ul class="soc-icons">
+                    <li><a href="#" target="_blank"><i class="fab fa-whatsapp" style="width: 20px; font-size: 20px;"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook" style="width: 20px; font-size: 20px;"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram" style="width: 20px; font-size: 20px;"></i></a></li>
+                </ul>
+            </div>
+            <h1 class="slogan">We Bake it. You Love it.</h1>
+                <div class="head__button">
+                    <select id="cityDropdown" class="dropdown-content">
+                    <option value="" disabled selected>Select a city</option>
+                    <option value="Adoor">Adoor</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Bantwal">Bantwal</option>
+                    <option value="Belgaum">Belgaum</option>
+                    <option value="Bhubaneshwar">Bhubaneshwar</option>
+                    <option value="Bidadi">Bidadi</option>
+                    <option value="Calicut">Calicut</option>
+                    <option value="Chanapattna">Chanapattna</option>
+                    <option value="Mangalore">Mangalore</option>
+                    <option value="Surathkal">Surathkal</option>
+                    <option value="Udupi">Udupi</option>
+                    </select>
+                    <button>&#9662;</button>
+                </div>
+        </div>
+        <div class="header">
+                <div class="header__container">
+                    <div class="header__logo">
+                        <a href="#"><img src="images/logo (1).png" alt="logo"></a>
+                    </div>
+                    <div class="mainmenu">
+                        <nav class="mainmenu__nav">
+                            <ul class="mainmenu__ul">
+                                <li>
+                                    <a href="#">Cakes</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">Birthday Cakes</a></li>
+                                        <li><a href="#">Chocolate Cakes</a></li>
+                                        <li><a href="#">Fruit Cakes</a></li>
+                                        <li><a href="#">Premium Cakes</a></li>
+                                    </ul>
+                                </li>
+                                <li class='dropdown active'><a href="#">Express Cakes</a></li>
+                                <li>
+                                    <a href="#"> Occasional</a>
+                                    <ul class="submenu">
+                                    <li>
+                                    <ul>
+                                        <li><a href="#">Christmas Cakes</a></li>
+                                        <li><a href="#">Diwali Cakes</a></li>
+                                        <li><a href="#">Easter Cakes</a></li>
+                                        <li><a href="#">Festival Eid Cakes</a></li>
+                                    </ul>
+                                    </li>
+                                    <li>
+                                    <ul>
+                                        <li><a href="#">Fathers Day Cakes</a></li>
+                                        <li><a href="#">Friendship Day Cakes</a></li>
+                                        <li><a href="#">Mothers Day Cakes</a></li>
+                                        <li><a href="#">Rakhi Cakes</a></li>
+                                    </ul>
+                                    </li>
+                                    <li>
+                                    <ul>
+                                        <li><a href="#">Valentines Cakes</a></li>
+                                        <li><a href="#">Holi Cakes</a></li>
+                                        <li><a href="#">New Year Cakes</a></li>
+                                        <li><a href="#">Womens Day Cakes</a></li>
+                                    </ul>
+                                    </li>
+                                    </ul>
+                                    </li>
+                                    <li><a href="#">Designer</a>
+                                        <ul class="submenu">
+                                        <li><a href="#">2D Cakes</a></li>
+                                        <li><a href="#">3D Cakes</a></li>
+                                        <li><a href="#">Animal Cakes</a></li>
+                                        <li><a href="#">Designer Cakes</a></li>
+                                        <li><a href="#">Heart Shape Cakes</a></li>
+                                        <li><a href="#">Wedding Anniversary Cakes</a></li>
+                                        <li><a href="#">Baby Shower Cakes</a></li>
+                                        </ul>
+                                        </li>
+                                        <li><a href="#">Flowers</a></li>
+                                        <li><a href="#">Desserts &amp; Snacks</a>
+                                        <ul class="submenu">
+                                        <li><a href="#">Combos</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                    <a href="#">Photo Cakes</a>
+                                    <ul class="submenu">
+                                    <li><a href="#">Photo Impression Cakes</a></li>
+                                    </ul>
+                                    </li>
+                                    <li><a href="#" style="color: #e91f63;">LIVE KITCHEN</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+        <div class="search-icons">
+        <div class="search-container">
+            <label for="search-input" class="search-icon"><i class="fas fa-search search-icon"></i></label>
+            <input type="text" id="search-input" class="search-input" placeholder="Search...">
+        </div>
+        <div class="userlogin">
+            <i class="fas fa-user user-icon"></i>
+            <div class="userlogin__content">
+            <a href="#" class="userlogin-item">Login</a>
+            </div>
+        </div>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </div>
+    </div>
+</div>
+
+</div>
+</header>
+<div class="banner">
+        <a href="#"><img src="images/bannerbake.jpg" alt="banner"></a>
+</div>
+<div class="banner__single">
+    <a href="#"><img src="images/blueberry.jpg" alt="blueberry"></a>
+    <a href="#"><img src="images/cherry.jpg" alt="cherry"></a>
+    <a href="#"><img src="images/almond.jpg" alt="almond"></a>
+    <a href="#"><img src="images/cocoa.jpg" alt="cocoa"></a>
+</div>
+<div class="image-container">
+    <h2 class="image-title">Wide Range Of Cakes</h2>
+        <div class="image-row">
+            <img src="images/birthday-cakes.jpg" alt="birthday-cakes">
+            <img src="images/cookies.jpg" alt="cookies">
+            <img src="images/desserts.jpg" alt="desserts">
+            <img src="images/combos.jpg" alt="combos">
+            <img src="images/snacks.jpg" alt="snacks">
+            <img src="images/flowers.jpg" alt="flowers">
+        </div>
+</div>
+
+<div class="express">
+    <h2 style="text-align: left; padding: 4px; margin-left: 5%;">Express Cakes</h2>
+    <div class="express_wrapper">
+        <div class="express__cards">
+            <a href="#">
+                <div class="express__cards__image">
+                    <img src="images/black-forest.jpg" alt="black-forest">
+                    <span class="tag">New</span>
+                </div>
+                <div class="express__cards__title">
+                    <p>Premium Blackforest Cake</p>
+                </div>
+                <div class="express__cards__price">
+                    <p>500</p>
+                </div>
+            </a>
+        </div>
+        <div class="express__cards">
+            <a href="#">
+                <div class="express__cards__image">
+                    <img src="images/kiwi-new.jpg" alt="kiwi">
+                </div>
+                <div class="express__cards__title">
+                    <p>NewZealand Kiwi Cake</p>
+                </div>
+                <div class="express__cards__price">
+                    <p>325</p>
+                </div>
+            </a>
+        </div>
+        <div class="express__cards">
+            <a href="cake.html">
+                    <div class="express__cards__image">
+                        <img src="images/1.jpg" alt="chocochip">
+                    </div>
+                    <div class="express__cards__title">
+                        <p>Classic Chocochip Cake</p>
+                    </div>
+                    <div class="express__cards__price">
+                        <p>500</p>
+                    </div>
+            </a>
+        </div>
+        <div class="express__cards">
+            <a href="#">
+                    <div class="express__cards__image">
+                        <img src="images/4.jpg" alt="pineapple">
+                    </div>
+                    <div class="express__cards__title">
+                        <p>Premium Pineapple Cake</p>
+                    </div>
+                    <div class="express__cards__price">
+                        <p>425</p>
+                    </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="bestcakes">
+    <h2 style="text-align: left; padding: 4px; margin-left: 5%;">Best Selling Cakes</h2>
+    <div class="bestcakes_wrapper">
+        <div class="bestcakes__cards">
+            <a href="#">
+                <div class="bestcakes__cards__image">
+                    <img src="images/malted-chocolate-new.jpg" alt="malted-chocolate">
+                </div>
+                <div class="bestcakes__cards__title">
+                    <p>Malted Chocolate Cake</p>
+                </div>
+                <div class="bestcakes__cards__price">
+                    <p>525</p>
+                </div>
+            </a>
+        </div>
+        <div class="bestcakes__cards">
+            <a href="#">
+                <div class="bestcakes__cards__image">
+                    <img src="images/10.jpg" alt="rasmalai">
+                </div>
+                <div class="bestcakes__cards__title">
+                    <p>Rasmalai Cake Small</p>
+                </div>
+                <div class="bestcakes__cards__price">
+                    <p>500</p>
+                </div>
+            </a>
+        </div>
+        <div class="bestcakes__cards">
+            <a href="#">
+                <div class="bestcakes__cards__image">
+                    <img src="images/2.jpg" alt="belgium">
+                </div>
+                <div class="bestcakes__cards__title">
+                    <p>Belgium Truffle Cake</p>
+                </div>
+                <div class="bestcakes__cards__price">
+                    <p>500</p>
+                </div>
+            </a>
+        </div>
+        <div class="bestcakes__cards">
+            <a href="#">
+                <div class="bestcakes__cards__image">
+                    <img src="images/vanilla.jpg" alt="vanilla">
+                </div>
+                <div class="bestcakes__cards__title">
+                    <p>Vancho Vanilla Chocolate Cake</p>
+                </div>
+                <div class="bestcakes__cards__price">
+                    <p>500</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="popular">
+    <h2 style="text-align: left; padding: 4px; margin-left: 5%;">Popular Cakes</h2>
+    <div class="popular_wrapper">
+        <div class="popular__cards">
+            <a href="#">
+                <div class="popular__cards__image">
+                    <img src="images/French-merinue-cake.jpg" alt="french-merinue">
+                </div>
+                <div class="popular__cards__title">
+                    <p>French Meringue Cake</p>
+                </div>
+                <div class="popular__cards__price">
+                    <p>550</p>
+                </div>
+            </a>
+        </div>
+        <div class="popular__cards">
+            <a href="#">
+                <div class="popular__cards__image">
+                    <img src="images/red-velevt-cake.jpg" alt="red velvet">
+                </div>
+                <div class="popular__cards__title">
+                        <p>Red Velvet Cake</p>
+                </div>
+                <div class="popular__cards__price">
+                    <p>1100</p>
+                </div>
+            </a>
+        </div>
+        <div class="popular__cards">
+            <a href="#">
+                <div class="popular__cards__image">
+                        <img src="images/butterscotch.jpg" alt="butterscotch">
+                </div>
+                <div class="popular__cards__title">
+                    <p>Premium Butterscotch Cake</p>
+                </div>
+                <div class="popular__cards__price">
+                    <p>950</p>
+                </div>
+            </a>
+        </div>
+        <div class="popular__cards">
+            <a href="#">
+                <div class="popular__cards__image">
+                    <img src="images/vanilla.jpg" alt="vanilla">
+                </div>
+                <div class="popular__cards__title">
+                    <p>Vancho Vanilla Chocolate Cake</p>
+                </div>
+                <div class="popular__cards__price">
+                    <p>950</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="designer">
+    <h2 style="text-align: left; padding: 4px; margin-left: 5%;">Designer Cakes</h2>
+    <div class="designer_wrapper">
+        <div class="designer__cards">
+            <a href="#">
+                <div class="designer__cards__image">
+                    <img src="images/animal-theme-cake-02-2-5kg.jpg" alt="animal-theme-cake-02-2-5kg">
+                </div>
+                <div class="designer__cards__title">
+                    <p>Animal Theme Cake</p>
+                </div>
+                <div class="designer__cards__price">
+                    <p>1200</p>
+                </div>
+            </a>
+        </div>
+        <div class="designer__cards">
+            <a href="#">
+                <div class="designer__cards__image">
+                    <img src="images/super-hero-cake.jpg" alt="super-hero-cake">
+                </div>
+                <div class="designer__cards__title">
+                    <p>Super Hero Cake</p>
+                </div>
+                <div class="designer__cards__price">
+                    <p>1200</p>
+                </div>
+            </a>
+        </div>
+        <div class="designer__cards">
+            <a href="#">
+                <div class="designer__cards__image">
+                    <a href="#"><img src="images/chuck-chuck-train-cake.jpg" alt="train cake"></a>
+                </div>
+                <div class="designer__cards__title">
+                    <a href="#"><p>Chuck Chuck Train Creme Cake</p></a>
+                </div>
+                <div class="designer__cards__price">
+                    <p>1200</p>
+                </div>
+            </a>
+        </div>
+        <div class="designer__cards">
+            <a href="#">
+                <div class="designer__cards__image">
+                    <img src="images/petal-gown-cake.jpg" alt="petal-gown-cake">
+                </div>
+                <div class="designer__cards__title">
+                    <p>Petal Gown Doll Theme Cake</p>
+                </div>
+                <div class="designer__cards__price">
+                    <p>1200</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="popcategory">
+    <h2>Popular Categories</h2>
+    <div class="popcategory_wrapper">
+        <div class="popcategory__cards">
+            <a href="#">
+                <div class="popcategory__cards__image">
+                    <img src="images/birthday-specials.jpg" alt="birthday-specials">
+                </div>
+                <div class="popcategory__cards__title">
+                    <p>Birthday Specials</p>
+                </div>
+            </a>
+        </div>
+        <div class="popcategory__cards">
+            <a href="#">
+                <div class="popcategory__cards__image">
+                    <img src="images/wedding-specials.jpg" alt="wedding-specials">
+                </div>
+                <div class="popcategory__cards__title">
+                    <p>Wedding Specials</p>
+                </div>
+            </a>
+        </div>
+        <div class="popcategory__cards">
+            <a href="#">
+                <div class="popcategory__cards__image">
+                    <img src="images/1st-birthday-specials.jpg" alt="1st-birthday-specials">
+                </div>
+                <div class="popcategory__cards__title">
+                    <p>1st Birthday Specials</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="grid-container">
+    <div class="grid-item">
+        <img src="images/support-1.png" alt="Image 1">
+    <div>
+        <p><b>Earliest Delivery</b></p>
+        <p>Delivery in 3 Hours*</p>
+    </div>
+    </div>
+    <div class="grid-item">
+        <img src="images/support-2.png" alt="Image 2">
+        <div>
+            <p><b>Support 24/7</b></p>
+            <p>Happily Delivering</p>
+        </div>
+</div>
+<div class="grid-item">
+    <img src="images/support-3.png" alt="Image 3">
+    <div>
+        <p><b>Secure Payments</b></p>
+        <p>All Major Credit & Debit Cards</p>
+    </div>
+</div>
+<div class="grid-item">
+    <img src="images/support.png" alt="Image 4">
+        <div>
+            <p><b>Our Promise</b></p>
+            <p>100K Satisfied Customers</p>
+        </div>
+</div>
+</div>
+<h2 class="desc">Welcome to India's Largest Bakery JUST BAKE</h2>
+    <div class="desc-content">
+        <p>If you like the way they look, then you will love the way they taste. All our cakes are handmade and we use only the best quality ingredients to make the tastiest cakes. Just Bake assures that we do not use any cheap quality ingredients, preservatives for making the cakes in Bangalore, Hyderabad, Mangalore, Bhubaneswar, Cuttack, Mysore, Coimbatore, Tumkur, Vijayawada and Guntur.</p>
+        <p>We have developed an almost unlimited selection of cake designs with messages that can be personalised to create a unique centre piece to any occasion. In case if you don't find what you are looking for, just get in touch with us and we will be happy to help. We customize any design cake, shape cake based on your requests.</p>
+        <p>Shop for your favourite character edible photo print cake or buy a shape cake to make your occasion even more special from our wide range selection gallery - Designer Cakes, 3D Shape Cakes, Theme Cakes, Anniversary Cakes, Baby Shower Cakes, Birthday Cakes, Celebrating Promotion, Wishing Farewell, Wedding Cakes, House Warming Cakes, Castle Cakes.</p>
+        <p>You can choose from our hundreds of designs and personalise them with your messages or photographs and send it to your loved ones. Online Cake Orders & Delivery in Hyderabad, Bangalore & Mangalore is indeed A PIECE OF CAKE! You can then pay with your credit or debit card and specify your delivery information.</p>
+        <p>Cake delivery with Just Bake is completely reliable. We are the best online cake delivery in your town and are committed to offering nothing but the best to make your special day memorable by bringing the zeal and happiness together. Enriched with the goodness of love and decorated in unique ways, our cakes are party stoppers. The thing that sets us apart is using the flavours from the fresh fruits. We do not endorse artificial flavour and taste enhancers but use flavours only from the real fruits.</p>
+        <p>Sometimes words are not enough to convey the feelings and require special efforts. Just Bake cakes come to rescue when you are looking for special cakes for your beloveds. Now you can order cake online with Just Bake anytime and give us the privilege to shower the sweetness of baked goodies for your loved ones.</p>
+        <p>Just Bake is the ultimate destination for cakes online. We cater to providing the best Birthday Cakes Online and have made a remarkable place in weddings, anniversaries, and even corporate parties. Our aim is to offer hassle-free online cake services and their delivery to our customers. With Just Bake, you are just at the right portal for the best cakes for your special day. Give a new height to your celebrations and enjoy the day with Just Bake cakes!</p>
+    </div>
+<div class="city">
+    <h3>Cake Delivery Cities</h3><hr>
+        <h4>All Cities :</h4>
+                <a href="#">Cake Delivery in Hyderabad |</a>
+                <a href="#">Cake Delivery in Bangalore |</a>
+                <a href="#">Cake Delivery in Mangalore |</a>
+                <a href="#">Cake Delivery in Surathkal |</a>
+                <a href="#">Cake Delivery in Manipal |</a>
+                <a href="#">Cake Delivery in Udupi |</a>
+                <a href="#">Cake Delivery in Mysore |</a>
+                <a href="#">Cake Delivery in Vijaywada |</a>
+                <a href="#">Cake Delivery in Moodbidri |</a>
+                <a href="#">Cake Delivery in Bantwal |</a>
+                <a href="#">Cake Delivery in Puttur |</a>
+                <a href="#">Cake Delivery in Thokkotu |</a>
+                <a href="#">Cake Delivery in Guntur |</a>
+                <a href="#">Cake Delivery in Tenali |</a>
+                <a href="#">Cake Delivery in Santekatte |</a>
+                <a href="#">Cake Delivery in Kasargod |</a>
+                <a href="#">Cake Delivery in Upalla |</a>
+                <a href="#">Cake Delivery in Kanchangad |</a>
+                <a href="#">Cake Delivery in Coimbatore |</a>
+                <a href="#">Cake Delivery in Calicut |</a>
+                <a href="#">Cake Delivery in Tumkuru |</a>
+                <a href="#">Cake Delivery in Thalassery |</a>
+                <a href="#">Cake Delivery in Hossur |</a>
+                <a href="#">Cake Delivery in Palakkad |</a>
+                <a href="#">Cake Delivery in kottyam |</a>
+                <a href="#">Cake Delivery in Bhubaneshwar |</a>
+                <a href="#">Cake Delivery in Thiruvalla |</a>
+                <a href="#">Cake Delivery in Nelamangala |</a>
+                <a href="#">Cake Delivery in Rajahmundry |</a>
+                <a href="#">Cake Delivery in Hoskote |</a>
+                <a href="#">Cake Delivery in Mandya |</a>
+                <a href="#">Cake Delivery in Kolar |</a>
+                <a href="#">Cake Delivery in Mulki |</a>
+                <a href="#">Cake Delivery in Bidadi |</a>
+                <a href="#">Cake Delivery in Channapattana |</a>
+                <a href="#">Cake Delivery in Pathanamthitta |</a>
+                <a href="#">Cake Delivery in Ramnagar |</a>
+                <a href="#">Cake Delivery in Kochi |</a>
+            </div>
+    </div>
+</body>
+    <footer>
+        <body>
+            <footer class="footer">
+            <ul>
+                <li>
+                <a href="#"><img src="images/logo (1).png" height="100" width="100" alt="Loading" ></a><br>
+                <span>© 2021 Just Bake<br>All Rights Reserved
+                </span>
+                </li>
+            </ul>
+
+            <ul>
+                <li><a href="#"  class="foot" style="color: black;">About Just Bake</a></li>
+                <li><a href="aboutus.html">About Us</li>
+                <li><a href="#">Stores</li>
+                <li><a href="#">Franchising</li>
+                <li><a href="#">Franchise in Chennai</li>
+                <li><a href="#">Live Kitchen Franchise</li>
+            </ul>
+
+            <ul>
+                <li><a href="#" class="foot" style="color: black;">Information</a></li>
+                <li><a href="#">FAQs</li>
+                <li><a href="#">Privacy Policy</li>
+                <li><a href="#">Terms & Conditions</li>
+                <li><a href="#">Contact Us</li>
+            </ul>
+
+            <ul>
+                <li><a href="#" class="foot" style="color: black;">Useful Links</a></li>
+                <li><a href="#">Cakes</li>
+                <li><a href="#">Express Cakes Us</li>
+                <li><a href="#">Occasional Cakes</li>
+                <li><a href="#">Shape Cakes</li>
+            </ul>
+            <div class="footer-title">
+                <h2 style="color: black;">Just Bake is <br> Trusted and <br> Loved by <br> Millions <br> Across INDIA</h2>
+            </div>
+        </body>
+        </footer>
+</html>
