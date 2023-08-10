@@ -1,0 +1,32 @@
+body {
+  background-color: blue;
+}
+
+.myslider .field-list {
+  margin: 0;
+  /* Remove default margin */
+  padding: 0;
+  /* Remove default padding */
+  list-style: none;
+  /* Remove default list style */
+  display: flex;
+  /* Use flexbox to create a row of items */
+  justify-content: space-between;
+  /* Justify items properly with equal space between them */
+}
+
+.field-items {
+  margin: 10px;
+  /* Add a margin around each image to create a gap */
+}
+
+.field-items img {
+  max-width: 100%;
+  /* Ensure images don't exceed their container's width */
+  height: auto;
+  /* Preserve the aspect ratio of the images */
+}
+
+.slick-prev {
+  display: none;
+}/*# sourceMappingURL=specslider.css.map */
